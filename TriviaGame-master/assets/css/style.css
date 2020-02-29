@@ -1,0 +1,46 @@
+body{
+    background-image: url("../images/box.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+header{
+    text-align: center;
+    line-height: 0.2;
+}
+h1{
+    text-transform: uppercase;
+    color:black;
+    letter-spacing: 2.5rem;
+    font-family: 'Lato', ;
+}
+h3{
+    font-family: 'Lato', ;
+    font-size: 24px;
+}
+.main-content{
+    background-color: rgba( 255, 255, 255, 0.5);
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+    border-radius: 20px;
+    font-family: 'Lato', ;
+    height: 450px;
+    color: #000;
+    font-size: 20px;
+    font-weight: 900;
+}
+button {
+    padding: 30px 200px;
+    border-radius: 18px;
+    background-color: brown;
+    color: black;
+    font-size: 22px;
+    margin: 175px 20px;
+    border: solid 1px white;
+    font-weight: 700;
+}
+button:hover{
+    background-color:white;
+}
