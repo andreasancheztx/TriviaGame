@@ -1,5 +1,5 @@
-body{
-    background-image: url("../images/box.jpg");
+ body{
+    background-image:url("../images/box.jpg");
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -23,17 +23,18 @@ h3{
     background-color: rgba( 255, 255, 255, 0.5);
     margin: 0 auto;
     text-align: center;
-    width: 80%;
+    width: 40%;
     border-radius: 20px;
-    font-family: 'Lato', ;
+    font-family: 'Times New Roman', Times, serif, ;
     height: 450px;
     color: #000;
-    font-size: 20px;
+    font-size: 10px;
     font-weight: 900;
+    height: 90%
 }
-button {
-    padding: 30px 200px;
-    border-radius: 18px;
+.startbutton {
+    padding: 70px 200px;
+    border-radius: 50px;
     background-color: brown;
     color: black;
     font-size: 22px;
@@ -42,5 +43,16 @@ button {
     font-weight: 700;
 }
 button:hover{
-    background-color:white;
+    background-color: red;
+}
+
+.optionButton{
+    background-color: aliceblue;
+    padding :15px;
+    width: 70%;
+ 
+    color: black;
+    font-size: 18px;
+    margin:10px;
+
 }
